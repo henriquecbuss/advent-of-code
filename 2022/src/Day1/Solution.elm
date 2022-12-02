@@ -1,16 +1,16 @@
-module Day1.Solution exposing (finalInput, problem1, problem2, sampleInput)
+module Day1.Solution exposing (finalInput, sampleInput, solution1, solution2)
 
 
-problem1 : String -> Maybe Int
-problem1 input =
+solution1 : String -> Maybe Int
+solution1 input =
     input
         |> String.split "\n\n"
         |> List.map (String.split "\n" >> List.filterMap String.toInt >> List.sum)
         |> List.maximum
 
 
-problem2 : String -> Int
-problem2 input =
+solution2 : String -> Int
+solution2 input =
     input
         |> String.split "\n\n"
         |> List.map (String.split "\n" >> List.filterMap String.toInt >> List.sum)
