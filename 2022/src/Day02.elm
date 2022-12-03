@@ -1,4 +1,4 @@
-module Day2.Solution exposing (finalInput, sampleInput, solution1, solution2)
+module Day02 exposing (finalInput, sampleInput, solution1, solution2)
 
 
 solution1 : String -> Int

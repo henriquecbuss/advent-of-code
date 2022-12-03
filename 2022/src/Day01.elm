@@ -1,4 +1,4 @@
-module Day1.Solution exposing (finalInput, sampleInput, solution1, solution2)
+module Day01 exposing (finalInput, sampleInput, solution1, solution2)
 
 
 solution1 : String -> Maybe Int
