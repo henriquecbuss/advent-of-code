@@ -1,4 +1,4 @@
-module Day09 exposing (finalInput, initialRope, sampleInput, sampleInput2, solution1, solution2)
+module Day09 exposing (finalInput, sampleInput, sampleInput2, solution1, solution2)
 
 import Browser
 import Html exposing (Html)
